@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Bootstrap/Bootstrap.unity
+    guid: ee1a22c8aacac364498eff38134f74bb
+  - enabled: 1
+    path: Assets/Scenes/MainMenu/MainMenu.unity
+    guid: b4a0970f11776d942878c29b588eb130
+  - enabled: 1
+    path: Assets/Scenes/World_Village/World_Village.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/World_Forest/World_Forest.unity
+    guid: 280fda6f5635afd46b41eb8651f74100
+  - enabled: 1
+    path: Assets/Scenes/World_Town/World_Town.unity
+    guid: d7450b39dce501e49a9db2987801c3ee
+  - enabled: 1
+    path: Assets/Scenes/Boss_Village/Boss_Village.unity
+    guid: 78bf049e4586efa4d801c3b06ed48556
+  m_configObjects: {}
