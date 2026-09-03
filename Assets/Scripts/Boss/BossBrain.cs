@@ -131,6 +131,15 @@ public class BossBrain : MonoBehaviour
         if (currentState == BossState.ATTACK)
         {
             DebugLog("[BOSS AI] ATTACK REQUEST");
+
+            if (combatController != null)
+            {
+                combatController.Attack();
+            }
+            else
+            {
+                DebugLog("[BOSS AI] ATTACK FAILED | Combat Controller NOT FOUND");
+            }
         }
     }
 
